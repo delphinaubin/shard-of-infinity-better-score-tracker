@@ -1,0 +1,35 @@
+.PlayerCounterContainer {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  background-position: center 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.PlayerCounterContainer:first-of-type {
+  transform: rotateZ(180deg);
+}
+
+
+
+.Decima {
+  background-image: url("../../public/decima.jpg");
+}
+
+.Hakseity {
+  background-image: url("../../public/hakseity.jpg");
+}
+
+.KoSynWu {
+  background-image: url("../../public/ko-syn-wu.jpg");
+}
+
+.Hegiminus {
+  background-image: url("../../public/hegiminus.jpg");
+}
+
+.Rez {
+  background-image: url("../../public/rez.jpg");
+}

@@ -1,0 +1,63 @@
+.Counter {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-origin: content-box;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 1rem;
+}
+
+.PlayerLife {
+  background-image: url("../../../public/life.png");
+}
+
+.PlayerMastery {
+  background-image: url("../../../public/mastery.png");
+}
+
+.Counter span {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.CounterButton {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.highLife {
+  color: ForestGreen;
+}
+.middleLife {
+  color: #F48200;
+}
+.lowLife {
+  color: red
+}
+.maxMastery {
+  background: linear-gradient(0deg, orange, LightYellow);
+  background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: 2px darkorange;
+}
+.highMastery {
+  color:#FFB800;
+}
+.middleMastery {
+  color: darkorange;
+}
+.lowMastery {
+  color: #000;
+}
+
+.crossbones {
+  font-weight: bolder;
+}
