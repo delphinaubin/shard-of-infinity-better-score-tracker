@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <PlayerCounters hero="Hegiminus" />
-      <PlayerCounters hero="Rez" />
+      <PlayerCounters hero="Ko syn wu" />
     </div>
   );
 }
