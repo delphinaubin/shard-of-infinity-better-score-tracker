@@ -1,18 +1,49 @@
 .PlayerCounterContainer {
-  height: 50vh;
-  width: 100vw;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-position: center 25%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-.PlayerCounterContainer:first-of-type {
-  transform: rotateZ(180deg);
+.OnePlayer .Counter,
+.ThreePlayers .Counter
+{
+  height: 40vh;
 }
 
+.OnePlayer .PlayerCounterContainer {
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
 
+.TwoPlayers .PlayerCounterContainer {
+  height: 50vh;
+  width: 100vw;
+}
+
+.ThreePlayers .PlayerCounterContainer {
+  height: 100vh;
+  width: 33vw;
+  flex-direction: column;
+}
+.ThreePlayers,
+.FourPlayers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.FourPlayers .PlayerCounterContainer {
+  height: 50vh;
+  width: 50vw;
+}
+
+.TwoPlayers .PlayerCounterContainer:first-of-type {
+  transform: rotateZ(180deg);
+}
 
 .Decima {
   background-image: url("../../public/decima.jpg");

@@ -1,19 +1,18 @@
 import "./PlayerCounters.css";
-import { PlayerCounter } from "./playerCounter/PlayerCounter";
+import {PlayerCounter} from "./playerCounter/PlayerCounter";
 import classNames from "classnames";
-
-type Hero = "Decima" | "Hakeseity" | "Hegiminus" | "Ko syn wu" | "Rez";
+import {HeroName} from "../heroes";
 
 interface PlayerCountersProps {
-  hero: Hero;
+  hero: HeroName;
 }
 
-const getHeroClass = (hero: Hero): string => {
+const getHeroClass = (hero: HeroName): string => {
   switch (hero) {
     case "Decima":
       return "Decima";
-    case "Hakeseity":
-      return "Hakeseity";
+    case "Hakseity":
+      return "Hakseity";
     case "Hegiminus":
       return "Hegiminus";
     case "Ko syn wu":
